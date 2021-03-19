@@ -1,0 +1,27 @@
+{
+  "name": "shoku-landingpage",
+  "version": "1.0.0",
+  "description": "Shoku landingpage",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBeamer/shoku-landingpage.git"
+  },
+  "author": "Michael Beamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBeamer/shoku-landingpage/issues"
+  },
+  "homepage": "https://github.com/MrBeamer/shoku-landingpage#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.8"
+  }
+}
