@@ -21,6 +21,15 @@ html {
 }
 
 // -----------------------------------------------
+// Reusable component
+// -----------------------------------------------
+
+.center-row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+// -----------------------------------------------
 // HEADER
 // -----------------------------------------------
 
@@ -52,13 +61,40 @@ header {
 }
 
 // -----------------------------------------------
-// Reusable components
-// -----------------------------------------------
+// Headings
+//-----------------------------------------------
 
-.center-row {
-  width: 1140px;
-  margin: 0 auto;
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
 }
+
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: var(--color-primary);
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.features h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+// -----------------------------------------------
+// Buttons
+// -----------------------------------------------
 
 body .btn:link,
 .btn:visited {
@@ -136,27 +172,64 @@ body .btn-ghost:link,
 // SECTION 1
 // -----------------------------------------------
 
-.features h2 {
-  text-align: center;
+section {
+  padding: 80px 0;
+}
+
+.feature {
+  padding: 1%;
+}
+
+.feature p {
+  font-size: 90%;
+  line-height: 145%;
 }
 
 .long-copy {
   margin-bottom: 50px;
-  margin-top: 50px;
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
 }
 
-.features h3 {
+.feature i {
+  font-size: 290%;
   margin-bottom: 15px;
+  color: var(--color-primary);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  // grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
 }
 
 // -----------------------------------------------
 // CSS GRID
 // -----------------------------------------------
 
-.container {
+// -----------------------------------------------
+// SECTION 2
+// -----------------------------------------------
+
+.section-meals {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+
+  margin: 0;
+  padding: 0;
+}
+
+.showcase-meals {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+/* The Picture Frame */
+.gallery-frame {
+  height: 210px;
+  overflow: hidden;
 }
