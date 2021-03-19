@@ -216,20 +216,16 @@ section {
 .section-meals {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-
   margin: 0;
-  padding: 0;
 }
 
 .showcase-meals {
   max-width: 100%;
   height: auto;
-  object-fit: cover;
   transition: opacity 0.25s ease-in-out;
 }
 
 /* The Picture Frame */
 .gallery-frame {
-  height: 210px;
-  overflow: hidden;
+  // width: 100%;
 }
