@@ -214,18 +214,28 @@ section {
 // -----------------------------------------------
 
 .section-meals {
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-  margin: 0;
 }
 
 .showcase-meals {
+  opacity: 0.7;
   max-width: 100%;
   height: auto;
-  transition: opacity 0.25s ease-in-out;
+  display: block;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.showcase-meals:hover {
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* The Picture Frame */
 .gallery-frame {
-  // width: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
 }
