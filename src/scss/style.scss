@@ -39,6 +39,7 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: bottom;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -354,4 +355,58 @@ section {
 .city-feature a:hover {
   color: #6c757d;
   text-decoration: none;
+}
+
+// -----------------------------------------------
+// SECTION TESTIMONIALS 5
+// -----------------------------------------------
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/dxdboxbyb/image/upload/v1616315202/SHOKU/c56dhemhh0jhtv7igeju.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffff;
+  background-attachment: fixed;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+}
+
+.testimonial {
+  margin-top: 40px;
+}
+
+blockquote {
+  position: relative;
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+}
+
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+  align-content: center;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+blockquote:before {
+  content: "\201C";
+  font-size: 400%;
+  color: var(--color-primary);
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: 0px;
 }
