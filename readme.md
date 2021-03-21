@@ -1,16 +1,12 @@
 ## General info
 
-🛠 Work in progress - SHOKU 👣 - Landingpage
-
-## Functionality info
-
-- Set
+🛠 Work in progress - SHOKU - Landingpage
 
 ## Technologies
 
 Project is created with:
 
 - JavaScript
--
+- HTML, SCSS
 
 ## Live Preview

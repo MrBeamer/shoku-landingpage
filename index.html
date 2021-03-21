@@ -463,7 +463,7 @@
             <div class="center-row form-box">
               <label for="name">Name</label>
               <input
-                id="email"
+                id="name"
                 name="name"
                 type="text"
                 placeholder="Your name"
@@ -478,11 +478,11 @@
               />
 
               <label for="find-us">How did you find us?</label>
-              <select name="find-us" id="">
-                <option value="">Friends</option>
-                <option value="">Search Engine</option>
-                <option value="">Advertisement</option>
-                <option value="">Other</option>
+              <select name="find-us" id="find-us">
+                <option value="friends">Friends</option>
+                <option value="search">Search engine</option>
+                <option value="ad">Advertisement</option>
+                <option value="other">Other</option>
               </select>
 
               <label for="newsletter">Newsletter?</label>
@@ -497,16 +497,41 @@
                 name="message"
                 id="mesage"
                 cols="30"
-                rows="10"
+                rows="8"
                 placeholder="Your Message"
               ></textarea>
-
-              <a class="btn btn-full" href="">Send it</a>
+              <div>
+                <a type="submit" class="btn btn-full" href="">Send it</a>
+              </div>
             </div>
           </form>
         </div>
       </section>
-      <footer></footer>
+      <footer>
+        <div class="center-row">
+          <div class="footer-box">
+            <ul class="footer-nav">
+              <li><a href="">About us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">IOS App</a></li>
+              <li><a href="">Android App</a></li>
+            </ul>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+            <p>© 2021 by Shoku. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -517,10 +542,3 @@
         ></script> -->
   </body>
 </html>
-
-<!-- Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line -->
