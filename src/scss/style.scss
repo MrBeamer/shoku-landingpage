@@ -493,3 +493,56 @@ blockquote:before {
   vertical-align: middle;
   margin-top: -5px;
 }
+
+// -----------------------------------------------
+// SECTION CONTACT 6
+// -----------------------------------------------
+
+// .form-box {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  // width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-box {
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.form-box .btn {
+  grid-column: 2;
+}
+
+label {
+  grid-column: 1;
+}
+
+input {
+  grid-column: 2;
+}
+
+.form-section label {
+  margin-right: 20px;
+}
+
+// -----------------------------------------------
+// SECTION FOOTER 7
+// -----------------------------------------------
+
+footer {
+  background-color: #f4f4f4;
+  height: 100px;
+}
