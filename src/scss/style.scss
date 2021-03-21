@@ -71,7 +71,7 @@ h2 {
   font-size: 180%;
   word-spacing: 2px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 h2:after {
@@ -206,11 +206,7 @@ section {
 }
 
 // -----------------------------------------------
-// CSS GRID
-// -----------------------------------------------
-
-// -----------------------------------------------
-// SECTION 2
+// SECTION MEALS 2
 // -----------------------------------------------
 
 .section-meals {
@@ -241,8 +237,12 @@ section {
 }
 
 // -----------------------------------------------
-// SECTION 3
+// SECTION STEPS 3
 // -----------------------------------------------
+
+.section-steps {
+  background-color: #f4f4f4;
+}
 
 .worksteps {
   display: grid;
@@ -306,4 +306,52 @@ section {
   margin-right: 25px;
   float: left;
   padding: 5px;
+}
+
+// -----------------------------------------------
+// SECTION CITIES 4
+// -----------------------------------------------
+
+.city-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.city-card h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+.city-feature i {
+  color: var(--color-primary);
+  margin-right: 10px;
+  line-height: 120%;
+}
+
+.city-feature p {
+  font-weight: 300;
+  display: inline;
+}
+
+.city-feature a {
+  color: var(--color-primary);
+}
+
+.city-feature a:hover {
+  color: #6c757d;
+  text-decoration: none;
 }
