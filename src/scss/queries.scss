@@ -150,8 +150,32 @@
     grid-template-columns: 1fr;
     grid-row-gap: 10px;
   }
+
+  .download-actions img {
+    height: 40px;
+  }
+  .footer-box {
+    grid-template-columns: auto 1fr;
+  }
+
+  .social-links {
+    text-align: left;
+  }
+
+  .footer-nav li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .footer-box p {
+    margin-top: 20px;
+  }
 }
 
 // Small phones from 0 - 480 px
 @media only screen and (max-width: 480px) {
+  header {
+    background-position: center;
+    background-attachment: scroll;
+  }
 }
