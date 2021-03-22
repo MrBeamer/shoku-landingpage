@@ -247,6 +247,18 @@ body .btn-ghost:link,
   margin-top: 6px;
 }
 
+.mobile-nav-icon {
+  margin-top: 30px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #ffff;
+}
+
 // -----------------------------------------------
 // SECTION 1
 // -----------------------------------------------
