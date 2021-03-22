@@ -10,3 +10,5 @@ Project is created with:
 - HTML, SCSS
 
 ## Live Preview
+
+https://shoku.netlify.app/
