@@ -5,11 +5,6 @@
     width: 100%;
     padding: 0 2%;
   }
-
-  //   .center-row {
-  //     padding: 0 2%;
-  //     width: 100%;
-  //   }
 }
 
 // Small tablet, to big tablet from 768 - 1023 px
@@ -71,6 +66,10 @@
 
 // Small phones, to small tablets from 481 - 767 px
 @media only screen and (max-width: 767px) {
+  header {
+    background-position: center;
+  }
+
   body {
     font-size: 16px;
   }
