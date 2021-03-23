@@ -12,6 +12,7 @@ const stickyNav = function (entries) {
 const headerObserver = new IntersectionObserver(stickyNav, {
   root: null,
   threshold: 0,
+  // rootMargin: `-35px`,
   rootMargin: `-${navHeight - 35}px`,
 });
 
@@ -24,5 +25,30 @@ document.querySelector(".main-nav").addEventListener("click", function (event) {
   if (event.target.classList.contains("nav-item")) {
     const id = event.target.getAttribute("href");
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+});
+
+// Mobile Navigation
+
+const mobileMenu = document.querySelector(".mobile-nav-icon ");
+const mainNav = document.querySelector(".main-nav ");
+const icon = document.querySelector(".fas");
+const navItem = document.querySelector(".nav-item");
+
+mobileMenu.addEventListener("click", function () {
+  if (mainNav.style.display === "none") {
+    mainNav.style.display = "block";
+    navItem.style.display = "block";
+  } else {
+    mainNav.style.display = "none";
+    navItem.style.display = "none";
+  }
+  console.log("test");
+  if (mainNav.style.display === "none") {
+    icon.classList.add("fa-bars");
+    icon.classList.remove("fa-times");
+  } else {
+    icon.classList.remove("fa-bars");
+    icon.classList.add("fa-times");
   }
 });

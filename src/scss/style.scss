@@ -210,7 +210,7 @@ body .btn-ghost:link,
     margin-top: 25px;
 
     li {
-      display: inline-block;
+      display: block;
       margin-left: 40px;
     }
 
@@ -245,6 +245,22 @@ body .btn-ghost:link,
   height: auto;
   margin-bottom: 5px;
   margin-top: 6px;
+}
+
+// -----------------------------------------------
+// Mobile navi
+// -----------------------------------------------
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
 }
 
 // -----------------------------------------------
