@@ -230,6 +230,18 @@
   .logo-black {
     float: left;
   }
+
+  .sticky {
+    .main-nav {
+      li {
+        display: block;
+      }
+    }
+  }
+
+  .hero-text-box {
+    top: 60%;
+  }
 }
 
 // Small phones from 0 - 480 px
