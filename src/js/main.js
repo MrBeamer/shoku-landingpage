@@ -1,4 +1,5 @@
 // Sticky navigation: Intersection Observer API
+
 const nav = document.querySelector(".nav");
 const header = document.querySelector(".header");
 const navHeight = nav.getBoundingClientRect().height;
@@ -28,7 +29,7 @@ document.querySelector(".main-nav").addEventListener("click", function (event) {
   }
 });
 
-// Mobile Navigation
+// Mobile navigation
 
 const mobileMenu = document.querySelector(".mobile-nav-icon ");
 const mainNav = document.querySelector(".main-nav ");

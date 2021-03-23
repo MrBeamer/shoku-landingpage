@@ -1,6 +1,6 @@
 ## General info
 
-🛠 Work in progress - SHOKU - Landingpage
+SHOKU - Landingpage 🍣
 
 ## Technologies
 
