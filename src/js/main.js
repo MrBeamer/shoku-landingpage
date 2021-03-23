@@ -1,3 +1,4 @@
+import "materialize-css";
 // Sticky navigation: Intersection Observer API
 const nav = document.querySelector(".nav");
 const header = document.querySelector(".header");
