@@ -37,6 +37,11 @@ body {
 // -----------------------------------------------
 
 header {
+  background-image: -o-linear-gradient(
+      rgba(0, 0, 0, 0.603),
+      rgba(0, 0, 0, 0.603)
+    ),
+    url("https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?ixid=x%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1516&q=80");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -202,6 +207,7 @@ body .btn-ghost:link,
   width: 100%;
   top: 0;
   left: 0;
+  -webkit-box-shadow: 0 1px 1px #efefef;
   box-shadow: 0 1px 1px #efefef;
 
   .main-nav {
@@ -463,6 +469,8 @@ section {
 // -----------------------------------------------
 
 .section-testimonials {
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://res.cloudinary.com/dxdboxbyb/image/upload/v1616315202/SHOKU/c56dhemhh0jhtv7igeju.jpg");
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -470,8 +478,6 @@ section {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url("https://res.cloudinary.com/dxdboxbyb/image/upload/v1616315202/SHOKU/c56dhemhh0jhtv7igeju.jpg");
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://res.cloudinary.com/dxdboxbyb/image/upload/v1616315202/SHOKU/c56dhemhh0jhtv7igeju.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://res.cloudinary.com/dxdboxbyb/image/upload/v1616315202/SHOKU/c56dhemhh0jhtv7igeju.jpg");
